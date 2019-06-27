@@ -1,0 +1,56 @@
+body {
+    background-image: url("../images/whitesparklebackground.jpg")
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 2px;
+    width: 600px;
+    height:200px;
+    border: 3px solid teal;
+    align-content: center;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.targetScore {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2px;
+    width: 600px;
+    height: 75px;
+    border: 3px solid teal;
+    background-color: lightblue;
+}
+
+.images {
+    margin: 0 auto;
+    padding: 2px;
+    width: 600px;
+    height:125px;
+    border: 3px solid teal;
+    background-color: lightblue;
+    text-align: center;
+}
+
+#scoreBox {
+    margin: 0 auto;
+    padding: 2px;
+    width: 600px;
+    height: 75px;
+    border: 3px solid teal;
+    background-color: lightblue;
+}
+
+#winLoseBox {
+    margin: 0 auto;
+    padding: 2px;
+    width: 600px;
+    height: 75px;
+    border: 3px solid teal;
+    background-color: lightblue;
+}

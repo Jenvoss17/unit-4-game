@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/crystalgame.css">
+</head>
+
+<body>
+    <h1>Magic Collector!</h1>
+
+    <div class="container">
+        <h2>Rules:</h2>
+        <p>Each fairytale item has a hidden value when you click on it.</p>
+        <p>To win the game, you must click the items and add up to the target score you are given.</p>
+        <p>Good luck!</p>
+    </div>
+    <div class="targetScore">
+        <h3>Target Score: <span id="targetScore"></span></h3>
+    </div>
+    <div id="images" class="images">
+        <img src="../unit-4-game/assets/images/shoe.jpg" alt="Glass Slipper" height="120" width="120">
+        <img src="../unit-4-game/assets/images/hat.png" alt="Wizard Hat" height="120" width="120">
+        <img src="../unit-4-game/assets/images/wand.jpg" alt="Magic Wand" height="120" width="120">
+        <img src="../unit-4-game/assets/images/potion.jpg" alt="Potion" height="120" width="120">
+    </div>
+
+    <div id="scoreBox">
+        <p><strong>Your current score is: </strong><span id="score">0</span>
+        </p>
+    </div>
+
+    <div id="winLoseBox">
+        <p><strong>Wins: <span id="wins"></span></strong></p>
+        <p><strong>Losses: <span id="losses"></span></p><strong></p>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/crystalgame.js"></script>
+</body>
+
+</html>
